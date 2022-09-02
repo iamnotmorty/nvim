@@ -1,11 +1,9 @@
 -- 不生成备份文件
 vim.opt.backup = false
-	
 vim.opt.smartindent = true
 vim.opt.autoindent = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
-
 
 -- 显示行号
 vim.opt.number = true
@@ -18,3 +16,5 @@ vim.opt.wrap = false
 
 vim.opt.cursorline = true
 vim.opt.mouse = "a"
+
+vim.opt.showmode = false
